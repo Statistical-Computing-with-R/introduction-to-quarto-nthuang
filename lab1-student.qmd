@@ -2,7 +2,12 @@
 title: "Lab 1: Introduction to Quarto"
 author: "Nathan Huang"
 date: "1/9/2025"
-format: html
+format:
+  html:
+    code-fold: true
+    toc: true
+    toc-expand: 2
+    theme: cyborg
 editor: source
 embed-resources: true
 execute:
